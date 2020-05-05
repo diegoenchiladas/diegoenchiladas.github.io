@@ -1,0 +1,1 @@
+Bier-Button erstellen, Event (onclick) spielt funktion (zufallszahl) aus.

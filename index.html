@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Für responsive-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="frankfurtammain.css" media="screen"/>
+        <script src="script.js" async></script>
+        <title>cALKulator</title>
+    </head>
+    <body>        
+        <div class="container">
+            <h2 id="h02">cALKulator</h2>
+            <p>Herzlich willkommen beim cALKulator - deinem Freund, der dir bei der Entscheidung hilft, wie viele Male du f&uuml;r dein Bier ansetzen sollst. Klick auf das Bier deiner Wahl und erfahre, ob du dein Bier vielleicht sogar exen darfst.</p>
+        </div>
+        <div class="container2">
+            <div class="container-fluid">
+                <div class="flex">
+                    <h1 id="mini">
+                    <button id="btmini" onclick="document.getElementById('mini').innerHTML = getSaufzahl()" class="rounded-circle"><img src="mini.jpg" class="rounded-circle"></button>
+                    </h1>
+                </div>
+                <div class="flex">
+                    <h1 id="stanga">
+                    <button id="btstanga" onclick="document.getElementById('stanga').innerHTML = getSaufzahl2()" class="rounded-circle"><img src="stanga.jpg" class="rounded-circle"></button>
+                    </h1>
+                </div>
+                <div class="flex">
+                    <h1 id="humpe">
+                    <button id="bthumpe" onclick="document.getElementById('humpe').innerHTML = getSaufzahl3()" class="rounded-circle"><img src="humpe.jpg" class="rounded-circle"></button>
+                    </h1>
+                </div>
+
+                    <script>
+                    function getSaufzahl() {
+                        var range = new Array('1','1','2','2','2','2','3','3','3','3','3','4+','4+','4+','4+','4+');
+                        const randomSaufzahl = range[Math.floor(Math.random() * range.length)];
+
+                          if (randomSaufzahl == 1) {
+                                bgMusic = new Audio('kids.mp3');
+                                bgMusic.volume = 0.2;
+                                bgMusic.loop = true;
+                                bgMusic.play();
+                          }   
+
+                      return randomSaufzahl;
+                    }
+                    function getSaufzahl2() {
+                        var range = new Array('1','1','2','2','2','2','3','3','3','3','4','4','4','5+','5+','5+','5+');
+                        const randomSaufzahl2 = range[Math.floor(Math.random() * range.length)];
+
+                          if (randomSaufzahl2 == 1) {
+                                bgMusic = new Audio('kids.mp3');
+                                bgMusic.volume = 0.2;
+                                bgMusic.loop = true;
+                                bgMusic.play();
+                          }   
+
+                      return randomSaufzahl2;
+                    }
+                    function getSaufzahl3() {
+                        var range = new Array('1','1','2','2','2','2','3','3','3','3','4','4','4','5','5','5','5','6+','6+','6+');
+                        const randomSaufzahl3 = range[Math.floor(Math.random() * range.length)];
+
+                          if (randomSaufzahl3 == 1) {
+                                bgMusic = new Audio('kids.mp3');
+                                bgMusic.volume = 0.2;
+                                bgMusic.loop = true;
+                                bgMusic.play();
+                          }   
+
+                      return randomSaufzahl3;
+                    }
+                    </script>
+            </div>       
+        </div>
+        <footer>
+            <button type="button" class="btn btn-outline-dark" onclick="window.location.href='index.html'">Gits nu eine?!</button>
+        </footer>
+    </body>
+</html>

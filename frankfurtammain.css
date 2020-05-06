@@ -1,10 +1,11 @@
 body{
-    background-color: yellow;
+    background-color: dodgerblue;
     text-align: center;
     color: black;
 }
 h1{
     font: bold 4em Helvetica, Arial, Sans-Serif;
+    font-size: 120px;
 	color: black;
 	padding: 0.2em;
 	margin: 0;
@@ -13,31 +14,25 @@ h1{
     text-align: center;
     font-family: serif;
     padding: inherit;
+    margin-top: 30px;
 }
 #mini{
    position: relative;
 	top: -3px;
 	left: -3px;
-	text-shadow: 1px 1px grey, 2px 2px grey, 3px 3px grey, 4px 4px grey, 5px 5px grey, 6px 6px grey;
+	text-shadow: 1px 1px darkblue, 2px 2px darkblue, 3px 3px darkblue, 4px 4px darkblue, 5px 5px darkblue, 6px 6px darkblue;
 }
 #stanga{
    position: relative;
 	top: -3px;
 	left: -3px;
-	text-shadow: 1px 1px grey, 2px 2px grey, 3px 3px grey, 4px 4px grey, 5px 5px grey, 6px 6px grey;
+	text-shadow:  1px 1px darkblue, 2px 2px darkblue, 3px 3px darkblue, 4px 4px darkblue, 5px 5px darkblue, 6px 6px darkblue;
 }
 #humpe{
    position: relative;
 	top: -3px;
 	left: -3px;
-	text-shadow: 1px 1px grey, 2px 2px grey, 3px 3px grey, 4px 4px grey, 5px 5px grey, 6px 6px grey;
-}
-.container-fluid1{
-    background-color: yellow;
-}
-.container-fluid{
-    background-color: white;
-    padding:inherit;
+	text-shadow:  1px 1px darkblue, 2px 2px darkblue, 3px 3px darkblue, 4px 4px darkblue, 5px 5px darkblue, 6px 6px darkblue;
 }
 .flex{
     display: flex; 
@@ -49,12 +44,7 @@ img{
     width: 80px;
     height: 120px;
 }
-.container2 {
-    background-color: yellow;
-    
-}
 footer {
-  background: yellow;
   position: fixed;
   left: 0;
   right: 0;

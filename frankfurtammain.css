@@ -11,7 +11,8 @@ h1{
 }
 #h02{
     text-align: center;
-    font-family: fantasy;
+    font-family: serif;
+    padding: inherit;
 }
 #mini{
    position: relative;
@@ -31,10 +32,10 @@ h1{
 	left: -3px;
 	text-shadow: 1px 1px grey, 2px 2px grey, 3px 3px grey, 4px 4px grey, 5px 5px grey, 6px 6px grey;
 }
-.container-fluid{
+.container-fluid1{
     background-color: yellow;
 }
-.container{
+.container-fluid{
     background-color: white;
     padding:inherit;
 }
@@ -45,7 +46,7 @@ h1{
     margin: none;
 }
 img{
-    width: 60px;
+    width: 120px;
     height: 120px;
 }
 .container2 {

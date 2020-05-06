@@ -10,6 +10,13 @@
     <body>        
         <div class="container-fluid">
             <h2 id="h02">cALKulator</h2>
+            <button id="myBtn" class="btn btn-outline-dark">Spielanleitung</button>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Text Intro</p>
+              </div>
+            </div>
         </div>
         <div class="container2">
             <div class="container-fluid1">
@@ -30,6 +37,20 @@
                 </div>
 
                     <script>
+                    var modal = document.getElementById("myModal");
+                    var btn = document.getElementById("myBtn");
+                    var span = document.getElementsByClassName("close")[0];
+                    btn.onclick = function() {
+                      modal.style.display = "block";
+                    }
+                    span.onclick = function() {
+                      modal.style.display = "none";
+                    }
+                    window.onclick = function(event) {
+                      if (event.target == modal) {
+                        modal.style.display = "none";
+                      }
+                    }
                     function getSaufzahl() {
                         var range = new Array('1', '1','2','2','2','2','3','3','3','3','3','4','4','4','4','4');
                         const randomSaufzahl = range[Math.floor(Math.random() * range.length)];

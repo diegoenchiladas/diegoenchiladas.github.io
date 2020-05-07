@@ -7,9 +7,11 @@
         <script src="script.js" async></script>
         <title>cALKulator</title>
     </head>
-    <body>        
+    <body>
         <div class="container-fluid">
             <h2 id="h02">cALKulator</h2>
+        </div>
+        <div class="container-fluid"> 
             <button id="myBtn" class="btn btn-outline-dark">Spielanleitung</button>
             <div id="myModal" class="modal">
               <div class="modal-content">
@@ -52,7 +54,7 @@
                       }
                     }
                     function getSaufzahl() {
-                        var range = new Array('1', '1','2','2','2','2','3','3','3','3','3','4','4','4','4','4');
+                        var range = new Array('1','2','2','2','2','3','3','3','3','3','4','4','4','4','4');
                         const randomSaufzahl = range[Math.floor(Math.random() * range.length)];
 
                           if (randomSaufzahl == 1) {
@@ -65,7 +67,7 @@
                       return randomSaufzahl;
                     }
                     function getSaufzahl2() {
-                        var range = new Array('1','1','2','2','2','2','2','3','3','3','3','3','4','4','4','4','4','5','5','5');
+                        var range = new Array('1','2','2','2','2','2','3','3','3','3','4','4','4','4','5','5');
                         const randomSaufzahl2 = range[Math.floor(Math.random() * range.length)];
 
                           if (randomSaufzahl2 == 1) {
@@ -78,7 +80,7 @@
                       return randomSaufzahl2;
                     }
                     function getSaufzahl3() {
-                        var range = new Array('1','1','2','2','2','2','2','3','3','3','3','3','4','4','4','4','4','5','5','5','5','6','6','6');
+                        var range = new Array('1','2','2','2','2','3','3','3','3','3','4','4','4','4','5','5','5','5','6','6','6');
                         const randomSaufzahl3 = range[Math.floor(Math.random() * range.length)];
 
                           if (randomSaufzahl3 == 1) {

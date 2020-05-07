@@ -1,26 +1,27 @@
 body{
     background-color: dodgerblue;
     text-align: center;
-    color: black;
 }
 h1{
     font: bold 4em Helvetica, Arial, Sans-Serif;
-    font-size: 100px;
-	color: black;
+    font-size: 80px;
+	color: white;
 	padding: 0.2em;
 	margin: 0;
 }
 #h02{
+    color: white;
     text-align: center;
     font-family: serif;
-    padding: inherit;
-    margin-top: 30px;
+    margin-top: 20px;   
+    text-shadow:  1px 1px darkblue, 2px 2px darkblue, 3px 3px darkblue, 4px 4px darkblue, 5px 5px darkblue, 6px 6px darkblue;
+    font-size: 60px;
 }
 .modal {
   display: none;
   position: fixed; 
   z-index: 1; 
-  padding-top: 100px; 
+  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%; 
@@ -70,14 +71,19 @@ h1{
     display: flex; 
     justify-content: center; 
     align-items: center;
-    margin: none;
-    padding: inherit;
+    margin: 0px;
+    padding: 0px;
 }
 .container-fluid{
-    padding:inherit;
+    margin-bottom: 20px;
 }
 
 img{
+    width: 80px;
+    height: 120px;  
+    box-shadow: 1px 1px darkblue, 2px 2px darkblue, 3px 3px darkblue, 4px 4px darkblue, 5px 5px darkblue, 6px 6px darkblue;
+}
+.rounded-circle{
     width: 80px;
     height: 120px;
 }
@@ -87,6 +93,5 @@ footer {
   right: 0;
   bottom: 0;
   text-align: center;
-  color: white;
   box-sizing: border-box;
 }

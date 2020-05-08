@@ -16,7 +16,12 @@
             <div id="myModal" class="modal">
               <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Text Intro</p>
+                <p>Herzlich willkommen beim cALKulator! Das Problem ist jedem trinkfesten Partygänger bekannt: Bei einem neuen Bier stellt sich grundsätzlich immer die Frage, in welchem Tempo es runtergekippt werden soll. Der cALKulator befreit dich von diesen Sorgen und bestimmt für dich, wie viele Male du für ein neues Bier ansetzen sollst. Klick einfach auf das entsprechende Bier und erfahre, ob du es vielleicht sogar in einem Zug runterkippen wirst?!<br>
+                    <br>
+                    Range Mini: 1 bis 4<br>
+                    Range Stange: 1 bis 5<br>
+                    Range Humpen: 1 bis 6<br>
+                </p>
               </div>
             </div>
         </div>
@@ -49,7 +54,7 @@
                       }
                     }
                     function getSaufzahl() {
-                        var range = new Array('1','2','2','2','2','3','3','3','3','3','4','4','4','4','4');
+                        var range = new Array('1','1','2','2','2','2','3','3','3','3','3','4','4','4','4','4');
                         const randomSaufzahl = range[Math.floor(Math.random() * range.length)];
 
                           if (randomSaufzahl == 1) {
@@ -61,7 +66,7 @@
                       return randomSaufzahl;
                     }
                     function getSaufzahl2() {
-                        var range = new Array('1','2','2','2','2','2','3','3','3','3','4','4','4','4','5','5');
+                        var range = new Array('1','1','2','2','2','2','2','3','3','3','3','4','4','4','4','5','5');
                         const randomSaufzahl2 = range[Math.floor(Math.random() * range.length)];
 
                           if (randomSaufzahl2 == 1) {
@@ -73,7 +78,7 @@
                       return randomSaufzahl2;
                     }
                     function getSaufzahl3() {
-                        var range = new Array('1','2','2','2','2','3','3','3','3','3','4','4','4','4','5','5','5','5','6','6','6');
+                        var range = new Array('1','1','2','2','2','2','3','3','3','3','3','4','4','4','4','5','5','5','5','6','6','6');
                         const randomSaufzahl3 = range[Math.floor(Math.random() * range.length)];
 
                           if (randomSaufzahl3 == 1) {

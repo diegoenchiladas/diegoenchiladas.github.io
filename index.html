@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container-fluid">
-            <h2 id="h02">cALKulator</h2>
+            <h2 id="h02"><b>cALKulator</b></h2>
         </div>
         <div class="container-fluid"> 
             <button id="myBtn" class="btn btn-outline-dark">Spielanleitung</button>
@@ -24,17 +24,17 @@
             <div class="container-fluid1">
                 <div class="flex">
                     <h1 id="mini">
-                    <button id="btmini" onclick="document.getElementById('mini').innerHTML = getSaufzahl()" class="rounded-circle" style="border:none"><img src="mini.jpg" class="rounded-circle"></button>
+                    <img src="mini.jpg" id="btmini" onclick="document.getElementById('mini').innerHTML = getSaufzahl()" class="rounded-circle" style="border:none">
                     </h1>
                 </div>
                 <div class="flex">
                     <h1 id="stanga">
-                    <button id="btstanga" onclick="document.getElementById('stanga').innerHTML = getSaufzahl2()" class="rounded-circle" style="border:none"><img src="stanga.JPG" class="rounded-circle"></button>
+                    <img src="stanga.JPG" id="btstanga" onclick="document.getElementById('stanga').innerHTML = getSaufzahl2()" class="rounded-circle" style="border:none">
                     </h1>
                 </div>
                 <div class="flex">
                     <h1 id="humpe">
-                    <button id="bthumpe" onclick="document.getElementById('humpe').innerHTML = getSaufzahl3()" class="rounded-circle" style="border:none"><img src="humpe.jpg" class="rounded-circle"></button>
+                    <img src="humpe.jpg" id="bthumpe" onclick="document.getElementById('humpe').innerHTML = getSaufzahl3()" class="rounded-circle" style="border:none">
                     </h1>
                 </div>
 
@@ -63,7 +63,6 @@
                                 bgMusic.loop = true;
                                 bgMusic.play();
                           }   
-
                       return randomSaufzahl;
                     }
                     function getSaufzahl2() {
@@ -76,7 +75,6 @@
                                 bgMusic.loop = true;
                                 bgMusic.play();
                           }   
-
                       return randomSaufzahl2;
                     }
                     function getSaufzahl3() {
@@ -89,7 +87,6 @@
                                 bgMusic.loop = true;
                                 bgMusic.play();
                           }   
-
                       return randomSaufzahl3;
                     }
                     </script>

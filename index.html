@@ -22,22 +22,17 @@
         </div>
         <div class="container2">
             <div class="container-fluid1">
-                <div class="flex">
-                    <h1 id="mini">
-                    <img src="mini.jpg" id="btmini" onclick="document.getElementById('mini').innerHTML = getSaufzahl()" class="rounded-circle" style="border:none">
-                    </h1>
-                </div>
-                <div class="flex">
-                    <h1 id="stanga">
-                    <img src="stanga.JPG" id="btstanga" onclick="document.getElementById('stanga').innerHTML = getSaufzahl2()" class="rounded-circle" style="border:none">
-                    </h1>
-                </div>
-                <div class="flex">
-                    <h1 id="humpe">
-                    <img src="humpe.jpg" id="bthumpe" onclick="document.getElementById('humpe').innerHTML = getSaufzahl3()" class="rounded-circle" style="border:none">
-                    </h1>
-                </div>
-
+                <h1 id="zahl">
+                    <div class="flex">
+                        <img src="mini.jpg" id="btmini" onclick="document.getElementById('zahl').innerHTML = getSaufzahl()" class="rounded-circle" style="border:none">
+                    </div>
+                    <div class="flex">
+                        <img src="stanga.JPG" id="btstanga" onclick="document.getElementById('zahl').innerHTML = getSaufzahl2()" class="rounded-circle" style="border:none">
+                    </div>
+                    <div class="flex">
+                        <img src="humpe.jpg" id="bthumpe" onclick="document.getElementById('zahl').innerHTML = getSaufzahl3()" class="rounded-circle" style="border:none">
+                    </div>
+                </h1>
                     <script>
                     var modal = document.getElementById("myModal");
                     var btn = document.getElementById("myBtn");
@@ -90,7 +85,7 @@
                       return randomSaufzahl3;
                     }
                     </script>
-            </div>       
+            </div>
         </div>
         <footer>
             <button type="button" class="btn btn-outline-dark" onclick="window.location.href='index.html'">Noch eines!</button>
